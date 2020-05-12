@@ -1,0 +1,81 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 44vw 54vw;
+    grid-template-rows: 38.5vh 20vh 38.5vh;
+}
+
+#grid-item1{
+    border-right: #000000 1em solid;
+    grid-column: 1;
+    background-color:rgb(176,38,27);
+}
+
+#grid-item2{
+    grid-column: 2;
+    background-color:rgb(233,232,227);
+}
+
+#grid-item3{
+    border-top: #000000 1em solid;
+    border-right: #000000 1em solid;
+    border-bottom: #000000 1em solid;
+    grid-column: 1;
+    grid-row: 2;
+    background-color:rgb(233,232,227);
+}
+
+#grid-item4{
+    border-top: #000000 1em solid;
+    border-bottom: #000000 1em solid;
+    grid-column: 2;
+    grid-row: 2;
+    background-color:rgb(233,232,227);
+}
+
+#bottom-left{
+    border-right: #000000 1em solid;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column: 1;
+    grid-row:3;
+}
+
+#grid-item5 {
+    border-right: #000000 1em solid;
+    grid-column:1;
+    background-color: rgb(245,224,96);
+}
+
+#grid-item6 {
+    grid-column:2;
+    background-color: rgb(233,232,227);
+}
+
+#bottom-right {
+    display: grid;
+    grid-template-columns:55% 45%;
+    grid-column: 2;
+    grid-row:3;
+}
+
+#bottom-right-nested{
+    display:grid;
+    grid-template-rows: 85% 15%;
+}
+
+#grid-item7 {
+    border-bottom: #000000 1em solid;
+    grid-row:1;
+    background-color: rgb(27,50,91);
+}
+
+#grid-item8 {
+    grid-row:2;
+    background-color: rgb(233,232,227);
+}
+
+#grid-item9{
+    border-left: #000000 1em solid;
+    grid-column:2;
+    background-color: rgb(233,232,227);
+}
